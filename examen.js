@@ -39,7 +39,7 @@ function tipoFigura(lados){
         return "Polígono"
     } 
     
-    if(lados < 0){
+    if(lados == 2 || lados < 0 || lados == 1){
 
         return "Ingrese una cantidad de lados válida"
     }

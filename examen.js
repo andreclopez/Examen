@@ -37,6 +37,11 @@ function tipoFigura(lados){
     } if(lados > 6){
         
         return "Polígono"
+    } 
+    
+    if(lados < 0){
+
+        return "Ingrese una cantidad de lados válida"
     }
         
 }

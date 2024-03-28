@@ -49,3 +49,42 @@ function tipoFigura(lados){
 let lados = prompt("Ingrese cantidad de lados")
 
 console.log(tipoFigura(lados))
+
+const pi = 3.1416
+
+let radio = 2.5
+
+let perimetro = (2 * pi * radio)
+
+console.log("El perímetro del círculo es", perimetro)
+
+let lado3 = 3;
+
+let perimetro3 = (lado3 * 3);
+
+console.log("El perímetro del triángulo es", perimetro3)
+
+let lado4 = 10;
+
+let perimetro4 = (lado4 * 4);
+
+console.log("El perímetro del cuadrado es", perimetro4)
+
+let lado5 = 3.5;
+
+let perimetro5 = (lado5 * 5);
+
+console.log("El perímetro del pentágono es", perimetro5)
+
+let lado6 = 2;
+
+let perimetro6 = (lado6 * 6);
+
+console.log("El perímetro del hexágono es", perimetro6)
+
+let ladopoli = 8;
+
+let perimetropoli = (ladopoli * 7);
+
+console.log("El perímetro del poligono, lado 7, es", perimetropoli)
+
